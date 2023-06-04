@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Guess A Number!</title>
+  <link rel="stylesheet" href="styles/styles.css">
+  <script src="vendors/jquery.min.js"></script>
+  <script src="scripts/client.js"></script>
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>YOUR GAME HERE!</h1>
+    <form>
+    <div>
+      <input id="playerOne-input" placeholder="playerOne" type="text">
+    </div>
+    <div>
+      <input id="playerTwo-input" placeholder="playerTwo" type="text">
+    </div>
+    <div>
+      <input id="playerThree-input" placeholder="playerThree" type="text">
+    </div>
+      <button id="submit-button">Submit</button>
+    </form>
+
+    <div>Round: <span id="round">0</span></div>
+
+    <section>
+      <div>Player One Guesses: <span id="one-array"></span></div>
+      <div>Player Two Guesses: <span id="two-array"></span></div>
+      <div>Player Three Guesses: <span id="three-array"></span></div>
+    </section>
+
+    <div>
+      <button id="generate-new-number">New Random Button!</button>
+    </div>
+</body>
+</html>
